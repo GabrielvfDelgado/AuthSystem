@@ -1,0 +1,12 @@
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\bin\Debug\net5.0\AuthSystem.Domain.deps.json
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\bin\Debug\net5.0\AuthSystem.Domain.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\bin\Debug\net5.0\ref\AuthSystem.Domain.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\bin\Debug\net5.0\AuthSystem.Domain.pdb
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\obj\Debug\net5.0\AuthSystem.Domain.csproj.AssemblyReference.cache
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\obj\Debug\net5.0\AuthSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\obj\Debug\net5.0\AuthSystem.Domain.AssemblyInfoInputs.cache
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\obj\Debug\net5.0\AuthSystem.Domain.AssemblyInfo.cs
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\obj\Debug\net5.0\AuthSystem.Domain.csproj.CoreCompileInputs.cache
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\obj\Debug\net5.0\AuthSystem.Domain.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\obj\Debug\net5.0\ref\AuthSystem.Domain.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.Domain\obj\Debug\net5.0\AuthSystem.Domain.pdb
