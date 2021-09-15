@@ -1520,6 +1520,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "AuthSystem.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AuthSystem.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthSystem.Application.dll": {}
+        }
+      },
       "AuthSystem.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1543,6 +1553,20 @@
         },
         "runtime": {
           "bin/placeholder/AuthSystem.Infra.dll": {}
+        }
+      },
+      "AuthSystem.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AuthSystem.Application": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AuthSystem.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthSystem.IoC.dll": {}
         }
       }
     }
@@ -5813,6 +5837,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "AuthSystem.Application/1.0.0": {
+      "type": "project",
+      "path": "../AuthSystem.Application/AuthSystem.Application.csproj",
+      "msbuildProject": "../AuthSystem.Application/AuthSystem.Application.csproj"
+    },
     "AuthSystem.Domain/1.0.0": {
       "type": "project",
       "path": "../AuthSystem.Domain/AuthSystem.Domain.csproj",
@@ -5822,11 +5851,18 @@
       "type": "project",
       "path": "../AuthSystem.Infra/AuthSystem.Infra.csproj",
       "msbuildProject": "../AuthSystem.Infra/AuthSystem.Infra.csproj"
+    },
+    "AuthSystem.IoC/1.0.0": {
+      "type": "project",
+      "path": "../AuthSystem.IoC/AuthSystem.IoC.csproj",
+      "msbuildProject": "../AuthSystem.IoC/AuthSystem.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AuthSystem.Application >= 1.0.0",
       "AuthSystem.Infra >= 1.0.0",
+      "AuthSystem.IoC >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.9",
@@ -5860,8 +5896,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\DEV\\Projetosgit\\AuthSystem\\AuthSystem.Application\\AuthSystem.Application.csproj": {
+              "projectPath": "D:\\DEV\\Projetosgit\\AuthSystem\\AuthSystem.Application\\AuthSystem.Application.csproj"
+            },
             "D:\\DEV\\Projetosgit\\AuthSystem\\AuthSystem.Infra\\AuthSystem.Infra.csproj": {
               "projectPath": "D:\\DEV\\Projetosgit\\AuthSystem\\AuthSystem.Infra\\AuthSystem.Infra.csproj"
+            },
+            "D:\\DEV\\Projetosgit\\AuthSystem\\AuthSystem.IoC\\AuthSystem.IoC.csproj": {
+              "projectPath": "D:\\DEV\\Projetosgit\\AuthSystem\\AuthSystem.IoC\\AuthSystem.IoC.csproj"
             }
           }
         }

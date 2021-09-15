@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GjKPwoZaiekNo7tBFvoUun7x7lo6FUACH7wM+R8oNucS0wSBuy73dLW+qpeoafpAjvA/CpgPRl/qtaV9dHKrxA==",
+  "success": true,
+  "projectFilePath": "D:\\DEV\\Projetosgit\\AuthSystem\\AuthSystem.IoC\\AuthSystem.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

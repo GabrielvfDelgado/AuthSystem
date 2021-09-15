@@ -5,7 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using AuthSystem.Infra.Context;
-    
+using AuthSystem.IoC;
+
 namespace AuthSystem
 {
     public class Startup
@@ -23,6 +24,8 @@ namespace AuthSystem
             services.AddControllersWithViews();
 
             services.AddDbContext<AuthContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("AuthDB")).EnableSensitiveDataLogging());
+
+            NativeInjector.RegisterService(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

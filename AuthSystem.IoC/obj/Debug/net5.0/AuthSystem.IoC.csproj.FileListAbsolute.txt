@@ -1,0 +1,15 @@
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\bin\Debug\net5.0\AuthSystem.IoC.deps.json
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\bin\Debug\net5.0\AuthSystem.IoC.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\bin\Debug\net5.0\ref\AuthSystem.IoC.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\bin\Debug\net5.0\AuthSystem.IoC.pdb
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\bin\Debug\net5.0\AuthSystem.Application.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\bin\Debug\net5.0\AuthSystem.Application.pdb
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\AuthSystem.IoC.csproj.AssemblyReference.cache
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\AuthSystem.IoC.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\AuthSystem.IoC.AssemblyInfoInputs.cache
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\AuthSystem.IoC.AssemblyInfo.cs
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\AuthSystem.IoC.csproj.CoreCompileInputs.cache
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\AuthSystem.IoC.csproj.CopyComplete
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\AuthSystem.IoC.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\ref\AuthSystem.IoC.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\AuthSystem.IoC.pdb

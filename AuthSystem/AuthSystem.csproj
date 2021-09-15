@@ -18,7 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AuthSystem.Application\AuthSystem.Application.csproj" />
     <ProjectReference Include="..\AuthSystem.Infra\AuthSystem.Infra.csproj" />
+    <ProjectReference Include="..\AuthSystem.IoC\AuthSystem.IoC.csproj" />
   </ItemGroup>
 
 </Project>

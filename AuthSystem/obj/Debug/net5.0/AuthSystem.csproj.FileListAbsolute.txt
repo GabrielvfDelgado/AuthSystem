@@ -74,3 +74,7 @@ D:\DEV\Projetosgit\AuthSystem\AuthSystem\obj\Debug\net5.0\AuthSystem.dll
 D:\DEV\Projetosgit\AuthSystem\AuthSystem\obj\Debug\net5.0\ref\AuthSystem.dll
 D:\DEV\Projetosgit\AuthSystem\AuthSystem\obj\Debug\net5.0\AuthSystem.pdb
 D:\DEV\Projetosgit\AuthSystem\AuthSystem\obj\Debug\net5.0\AuthSystem.genruntimeconfig.cache
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\AuthSystem.Application.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\AuthSystem.Application.pdb
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\AuthSystem.IoC.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\AuthSystem.IoC.pdb

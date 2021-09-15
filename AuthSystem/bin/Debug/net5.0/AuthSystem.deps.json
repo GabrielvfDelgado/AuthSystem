@@ -33,7 +33,9 @@
     ".NETCoreApp,Version=v5.0": {
       "AuthSystem/1.0.0": {
         "dependencies": {
+          "AuthSystem.Application": "1.0.0",
           "AuthSystem.Infra": "1.0.0",
+          "AuthSystem.IoC": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.9",
           "Microsoft.EntityFrameworkCore.Design": "5.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
@@ -1315,6 +1317,14 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "AuthSystem.Application/1.0.0": {
+        "runtime": {
+          "AuthSystem.Application.dll": {}
+        },
+        "compile": {
+          "AuthSystem.Application.dll": {}
+        }
+      },
       "AuthSystem.Domain/1.0.0": {
         "runtime": {
           "AuthSystem.Domain.dll": {}
@@ -1334,6 +1344,18 @@
         },
         "compile": {
           "AuthSystem.Infra.dll": {}
+        }
+      },
+      "AuthSystem.IoC/1.0.0": {
+        "dependencies": {
+          "AuthSystem.Application": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "AuthSystem.IoC.dll": {}
+        },
+        "compile": {
+          "AuthSystem.IoC.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3709,12 +3731,22 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "AuthSystem.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "AuthSystem.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "AuthSystem.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AuthSystem.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
