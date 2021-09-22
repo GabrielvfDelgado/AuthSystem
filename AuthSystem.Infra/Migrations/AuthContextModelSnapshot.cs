@@ -25,8 +25,17 @@ namespace AuthSystem.Infra.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DateUpdated")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -41,7 +50,9 @@ namespace AuthSystem.Infra.Migrations
                         new
                         {
                             Id = new Guid("64c67611-ed03-4fa7-887d-a9a46e6b7acd"),
+                            DateCreated = new DateTime(2021, 9, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "userdefault@auth.com",
+                            IsDeleted = false,
                             Name = "User Default"
                         });
                 });

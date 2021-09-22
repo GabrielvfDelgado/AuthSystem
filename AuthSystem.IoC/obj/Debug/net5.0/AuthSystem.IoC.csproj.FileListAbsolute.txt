@@ -13,3 +13,7 @@ D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\AuthSystem.IoC.csp
 D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\AuthSystem.IoC.dll
 D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\ref\AuthSystem.IoC.dll
 D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\obj\Debug\net5.0\AuthSystem.IoC.pdb
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\bin\Debug\net5.0\AuthSystem.Domain.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\bin\Debug\net5.0\AuthSystem.Infra.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\bin\Debug\net5.0\AuthSystem.Infra.pdb
+D:\DEV\Projetosgit\AuthSystem\AuthSystem.IoC\bin\Debug\net5.0\AuthSystem.Domain.pdb

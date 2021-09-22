@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "AuthSystem.Application/1.0.0": {
+        "dependencies": {
+          "AuthSystem.Domain": "1.0.0"
+        },
         "runtime": {
           "AuthSystem.Application.dll": {}
+        }
+      },
+      "AuthSystem.Domain/1.0.0": {
+        "runtime": {
+          "AuthSystem.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "AuthSystem.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AuthSystem.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModels\" />
+    <ProjectReference Include="..\AuthSystem.Domain\AuthSystem.Domain.csproj" />
   </ItemGroup>
 
 </Project>

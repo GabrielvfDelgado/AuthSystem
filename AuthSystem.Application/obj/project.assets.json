@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "AuthSystem.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/AuthSystem.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AuthSystem.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AuthSystem.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AuthSystem.Domain/AuthSystem.Domain.csproj",
+      "msbuildProject": "../AuthSystem.Domain/AuthSystem.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "AuthSystem.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Gabri\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\DEV\\Projetosgit\\AuthSystem\\AuthSystem.Domain\\AuthSystem.Domain.csproj": {
+              "projectPath": "D:\\DEV\\Projetosgit\\AuthSystem\\AuthSystem.Domain\\AuthSystem.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

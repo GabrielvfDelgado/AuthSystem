@@ -17,8 +17,7 @@ namespace AuthSystem.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            this.userService.Test();
-            return Ok("ok");
+            return Ok(this.userService.Get());
         }
     }
 }

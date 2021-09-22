@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Data", "4.1-Data", "{18
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-CrossCutting", "{4FD5CA23-8F37-4F0B-AE01-A6C7D4FF8826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthSystem.IoC", "AuthSystem.IoC\AuthSystem.IoC.csproj", "{A4FA2AB8-2330-41AF-A9F0-90889CA58463}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthSystem.IoC", "AuthSystem.IoC\AuthSystem.IoC.csproj", "{A4FA2AB8-2330-41AF-A9F0-90889CA58463}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -9,7 +9,7 @@ namespace AuthSystem.Infra.Extensions
         public static ModelBuilder SeedData(this ModelBuilder builder)
         {
             builder.Entity<User>().HasData(
-                new User { Id = Guid.Parse("64c67611-ed03-4fa7-887d-a9a46e6b7acd"), Name = "User Default", Email = "userdefault@auth.com" }
+                new User { Id = Guid.Parse("64c67611-ed03-4fa7-887d-a9a46e6b7acd"), Name = "User Default", Email = "userdefault@auth.com", DateCreated = new DateTime(2021, 9, 22), IsDeleted = false, DateUpdated = null}
                 );
             return builder;
         }

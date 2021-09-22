@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AuthSystem.Infra.Context
 {
-    public class AuthContext :DbContext
+    public class AuthContext : DbContext
     {
         public AuthContext(DbContextOptions<AuthContext> options) : base (options)
         {
