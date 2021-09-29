@@ -1,4 +1,5 @@
 ﻿using AuthSystem.Application.Interfaces;
+using AuthSystem.Application.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthSystem.Controllers
@@ -18,6 +19,12 @@ namespace AuthSystem.Controllers
         public IActionResult Get()
         {
             return Ok(this.userService.Get());
+        }
+
+        [HttpPost]
+        public IActionResult Post(UserViewModel userViewModel)
+        {
+            return Ok(this.userService.Post(userViewModel));
         }
     }
 }

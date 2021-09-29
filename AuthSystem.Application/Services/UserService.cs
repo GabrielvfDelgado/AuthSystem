@@ -2,6 +2,7 @@
 using AuthSystem.Application.ViewModels;
 using AuthSystem.Domain.Entities;
 using AuthSystem.Domain.Interfaces;
+using System;
 using System.Collections.Generic;
 
 namespace AuthSystem.Application.Services
@@ -27,6 +28,22 @@ namespace AuthSystem.Application.Services
 
 
             return _userViewModels;
+        }
+
+        public bool Post(UserViewModel userViewModel)
+        {
+
+            User _user = new User
+            {
+                Id = Guid.NewGuid(),
+                Email = userViewModel.Email,
+                Name = userViewModel.Name
+            };
+
+            this.userRepository.Create(_user);
+               
+
+            return true;
         }
     }
 }
