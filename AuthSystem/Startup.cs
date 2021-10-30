@@ -6,6 +6,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using AuthSystem.Infra.Context;
 using AuthSystem.IoC;
+using AuthSystem.Application.AutoMapper;
+using Template.Swagger;
 
 namespace AuthSystem
 {
@@ -26,6 +28,9 @@ namespace AuthSystem
             services.AddDbContext<AuthContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("AuthDB")).EnableSensitiveDataLogging());
 
             NativeInjector.RegisterService(services);
+
+            services.AddAutoMapper(typeof(AutoMapperSetup));
+            services.AddSwaggerConfiguration();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +46,9 @@ namespace AuthSystem
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseSwaggerConfiguration();
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

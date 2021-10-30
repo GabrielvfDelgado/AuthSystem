@@ -82,3 +82,12 @@ D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\Microsoft.Bcl.AsyncInt
 D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\ServiceStack.Common.dll
 D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\ServiceStack.Interfaces.dll
 D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\ServiceStack.Text.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\AutoMapper.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\Template.Swagger.dll
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\bin\Debug\net5.0\Template.Swagger.pdb
+D:\DEV\Projetosgit\AuthSystem\AuthSystem\obj\Debug\net5.0\AuthSystem.MvcApplicationPartsAssemblyInfo.cs

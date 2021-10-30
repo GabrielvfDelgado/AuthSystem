@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GmXs15fnR5y5CM/HWR0pRBq57pdnM1+3JM8a2WtqGzCSyA9imIKyrJyNkscqqs0hV55hJO7YFbO1DisQ475jOQ==",
+  "dgSpecHash": "DvKqD9CC1TdGR9R1XjamfWVMr++NiNjqpTBGQOCuJzKltNQGiGPt9DiCVy9aP2DYQY7DmtrzXPx5DdboxhpbUw==",
   "success": true,
   "projectFilePath": "D:\\DEV\\Projetosgit\\AuthSystem\\AuthSystem.IoC\\AuthSystem.IoC.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gabri\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Gabri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Gabri\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

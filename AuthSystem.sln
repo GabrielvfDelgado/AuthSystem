@@ -25,6 +25,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-Cro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthSystem.IoC", "AuthSystem.IoC\AuthSystem.IoC.csproj", "{A4FA2AB8-2330-41AF-A9F0-90889CA58463}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Swagger", "Template.Swagger\Template.Swagger.csproj", "{CF29A422-D2E3-46DF-B213-C92ED003BC7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A4FA2AB8-2330-41AF-A9F0-90889CA58463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4FA2AB8-2330-41AF-A9F0-90889CA58463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4FA2AB8-2330-41AF-A9F0-90889CA58463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF29A422-D2E3-46DF-B213-C92ED003BC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF29A422-D2E3-46DF-B213-C92ED003BC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF29A422-D2E3-46DF-B213-C92ED003BC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF29A422-D2E3-46DF-B213-C92ED003BC7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{183239C1-4AA8-4232-B6A8-F141A2D87065} = {D5DC5E38-4F12-44BB-96C1-A9BAC51EAF11}
 		{4FD5CA23-8F37-4F0B-AE01-A6C7D4FF8826} = {D5DC5E38-4F12-44BB-96C1-A9BAC51EAF11}
 		{A4FA2AB8-2330-41AF-A9F0-90889CA58463} = {4FD5CA23-8F37-4F0B-AE01-A6C7D4FF8826}
+		{CF29A422-D2E3-46DF-B213-C92ED003BC7D} = {4FD5CA23-8F37-4F0B-AE01-A6C7D4FF8826}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B28CC602-4973-452A-9B9D-9A36D5E74392}

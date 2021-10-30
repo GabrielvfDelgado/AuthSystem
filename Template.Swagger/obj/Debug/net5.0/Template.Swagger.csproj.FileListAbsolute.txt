@@ -1,0 +1,12 @@
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\bin\Debug\net5.0\Template.Swagger.deps.json
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\bin\Debug\net5.0\Template.Swagger.dll
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\bin\Debug\net5.0\ref\Template.Swagger.dll
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\bin\Debug\net5.0\Template.Swagger.pdb
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\obj\Debug\net5.0\Template.Swagger.csproj.AssemblyReference.cache
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\obj\Debug\net5.0\Template.Swagger.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\obj\Debug\net5.0\Template.Swagger.AssemblyInfoInputs.cache
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\obj\Debug\net5.0\Template.Swagger.AssemblyInfo.cs
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\obj\Debug\net5.0\Template.Swagger.csproj.CoreCompileInputs.cache
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\obj\Debug\net5.0\Template.Swagger.dll
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\obj\Debug\net5.0\ref\Template.Swagger.dll
+D:\DEV\Projetosgit\AuthSystem\Template.Swagger\obj\Debug\net5.0\Template.Swagger.pdb
